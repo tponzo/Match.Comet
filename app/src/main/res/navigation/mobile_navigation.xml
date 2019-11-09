@@ -8,25 +8,25 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.matchcomet.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_profile"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.matchcomet.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_preferences"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.matchcomet.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_events"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.example.matchcomet.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_create_event"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
