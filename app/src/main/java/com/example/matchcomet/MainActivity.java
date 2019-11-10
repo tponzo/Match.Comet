@@ -27,6 +27,16 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        GroupComets g1 = new GroupComets("UTD Unite", "David", "January 4, 2020", "Dad");
+        GroupComets g2 = new GroupComets("Smash Ultimate Tourny", "David", "January 24, 2020", "Dad");
+        GroupComets g3 = new GroupComets("No Clue", "David", "December 17, 2019", "Dad");
+        GroupComets g4 = new GroupComets("MHL: Woosh", "David", "March 30, 2020", "Dad");
+        GroupComets g5 = new GroupComets("", "David", "", "Dad");
+        TotalGroups.addGroup(g1);
+        TotalGroups.addGroup(g2);
+        TotalGroups.addGroup(g3);
+        TotalGroups.addGroup(g4);
+        TotalGroups.addGroup(g5);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
