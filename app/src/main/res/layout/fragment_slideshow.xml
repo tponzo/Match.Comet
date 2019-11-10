@@ -79,12 +79,6 @@
                         android:text="Group Name"
                         android:textSize="30sp" />
 
-                    <TextView
-                        android:id="@+id/textView4"
-                        android:layout_width="match_parent"
-                        android:layout_height="45dp"
-                        android:text="Group Name"
-                        android:textSize="18sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -108,6 +102,13 @@
 
                     <TextView
                         android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="Group Name"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="45dp"
                         android:text="Group Name"
