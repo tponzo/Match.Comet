@@ -31,11 +31,11 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        GroupComets g1 = new GroupComets("UTD Unite", "David", "January 4, 2020", "Dad");
-        GroupComets g2 = new GroupComets("Smash Ultimate Tourny", "David", "January 24, 2020", "Dad");
-        GroupComets g3 = new GroupComets("No Clue", "David", "December 17, 2019", "Dad");
-        GroupComets g4 = new GroupComets("MHL: Woosh", "David", "March 30, 2020", "Dad");
-        GroupComets g5 = new GroupComets("", "David", "", "Dad");
+        GroupComets g3 = new GroupComets("New Years Dance", "David", "January 1, 2020", "Celebrate the new year with a dance off with your favorite professors and peers\nLocation: Plinth");
+        GroupComets g4 = new GroupComets("Smash Ultimate Tourny", "David", "January 24, 2020", "So you think your the best at Smash? Come and find out if you have what it takes to get the epic victory royale\nLocation: Blackstone Launchpad");
+        GroupComets g1 = new GroupComets("Taco Truck Tuesday", "David", "November 17, 2019", "Torchy's is coming on campus to provide good food and music along with a prize drawing at the end of the event\nLocation: Food Truck Park");
+        GroupComets g5 = new GroupComets("UTD Mixer", "David", "March 30, 2020", "Hoping to find some friends or love in this cold weather? We got you covered with this extravagent mixer!\nLocation: AC Auditorium");
+        GroupComets g2 = new GroupComets("Drinks With Deans", "David", "December 25, 2019", "Share a beer (non-alcoholic of course) with your favorite dean and share some stories about all the fun you have had at UTD\nLocation: Dean's Office");
         TotalGroups.addGroup(g1);
         TotalGroups.addGroup(g2);
         TotalGroups.addGroup(g3);
